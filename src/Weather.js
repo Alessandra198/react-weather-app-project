@@ -14,31 +14,49 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-control w-100"
+            />
           </div>
         </div>
       </form>
-      <h1>Paris</h1>
-      <ul>
-        <li>Wednesday 07:00</li>
-        <li>Mostly Cloudy</li>
-        <div className="row">
-          <div className="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/windy.png"
-              alt="meteo icon"
-            />
-            6°C
+      <main>
+        <h1>Paris</h1>
+        <ul>
+          <li>Wednesday 07:00</li>
+          <li>Mostly Cloudy</li>
+          <div className="row mt-3">
+            <div className="col-6">
+              <div className="clearfix d-flex">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/windy.png"
+                  alt="meteo icon"
+                  className="float-left"
+                />
+                <div className="float-left">
+                  <span className="temperature">6</span>
+                  <span className="unit">°C</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-6">
+              <ul>
+                <li>
+                  Precipitation: <strong>15%</strong>
+                </li>
+                <li>
+                  Humidity: <strong>70%</strong>
+                </li>
+                <li>
+                  Wind: <strong>20 km/h</strong>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="col-6">
-            <ul>
-              <li>Precipitation: 15%</li>
-              <li>Humidity: 70%</li>
-              <li>Wind: 20 km/h</li>
-            </ul>
-          </div>
-        </div>
-      </ul>
+        </ul>
+      </main>
     </div>
   );
 }

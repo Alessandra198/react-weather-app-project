@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(
+    89.5deg,
+    rgba(104, 185, 232, 0.7) 1.5%,
+    rgba(216, 144, 245, 0.7) 100.5%
+  );
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin: 8px;
+}
