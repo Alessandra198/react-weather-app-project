@@ -21,8 +21,9 @@
   list-style-type: none;
 }
 
-.WeatherInfo img {
-    margin-right: 5px;
+.WeatherInfo canvas {
+  margin-right: 5px;
+  margin-top: 8px;
 }
 
 .WeatherInfo .temperature {
@@ -38,30 +39,30 @@
 }
 
 .WeatherInfo .unit {
-    position: relative;
-    font-size: 18px;
-    line-height: 1;
-    top: -33px;
-    font-weight: 500;
+  position: relative;
+  font-size: 18px;
+  line-height: 1;
+  top: -33px;
+  font-weight: 500;
 }
 
 @media (max-width: 550px) {
-    .WeatherInfo {
-        font-size: 15px;
-        padding-bottom: 5px;
-    }
+  .WeatherInfo {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
 
-    .WeatherInfo .temperature {
-        font-size: 23px;
-    }
+  .WeatherInfo .temperature {
+    font-size: 23px;
+  }
 
-    .WeatherInfo .unit {
-        top: 0;
-        font-size: 23px;
-    }
+  .WeatherInfo .unit {
+    top: 0;
+    font-size: 23px;
+  }
 
-    .WeatherInfo img {
-        max-width: 50%;
-    }
+  .WeatherInfo canvas {
+    max-width: 30px;
+    margin-top: 23px;
+  }
 }
-
