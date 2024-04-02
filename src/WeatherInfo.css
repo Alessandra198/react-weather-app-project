@@ -44,3 +44,24 @@
     top: -33px;
     font-weight: 500;
 }
+
+@media (max-width: 550px) {
+    .WeatherInfo {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .WeatherInfo .temperature {
+        font-size: 23px;
+    }
+
+    .WeatherInfo .unit {
+        top: 0;
+        font-size: 23px;
+    }
+
+    .WeatherInfo img {
+        max-width: 50%;
+    }
+}
+

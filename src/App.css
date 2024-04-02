@@ -18,3 +18,9 @@
 .App footer a {
   color: #994bc0d9;
 }
+
+@media (max-width: 550px) {
+  .App footer {
+    font-size: 10px;
+  }
+}
