@@ -26,39 +26,15 @@
   margin-top: 8px;
 }
 
-.WeatherInfo .temperature {
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 64px;
-}
-
-.WeatherInfo strong,
-.temperature,
-.unit {
+.WeatherInfo strong {
   color: #9223ac;
 }
 
-.WeatherInfo .unit {
-  position: relative;
-  font-size: 18px;
-  line-height: 1;
-  top: -33px;
-  font-weight: 500;
-}
 
 @media (max-width: 550px) {
   .WeatherInfo {
     font-size: 15px;
     padding-bottom: 5px;
-  }
-
-  .WeatherInfo .temperature {
-    font-size: 23px;
-  }
-
-  .WeatherInfo .unit {
-    top: 0;
-    font-size: 23px;
   }
 
   .WeatherInfo canvas {
